@@ -1,0 +1,45 @@
+/************************************************/
+/*                                              */
+/*                                              */
+/*                                              */
+/*                                              */
+/*                                              */
+/************************************************/
+
+@font-face {
+    font-family: titulos;
+    src: url();
+}
+
+@font-face {
+    font-family: texto;
+    src: url();
+}
+
+body {background-color: rgb(100, 90, 2);
+background-image: url(../img/handrawn-barbecue-elements.jpg);
+background-size: 50%;}
+
+#wrapper {background-color: aliceblue;
+            width: 60%;
+            margin: auto;
+            padding: 3%;
+            border-radius: 20px;}
+
+h1 {border: 2px solid rebeccapurple;
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: -5px 10px 5px gray;}
+
+blockquote {border-left:  3px solid blueviolet;
+            font-style: italic;
+            padding: 10px;
+            background-color: darkgray;}
+#foto {width: 50%;
+        margin: auto;
+        display: block;}
+
+dt {font-weight: bold;
+    color: rgb(10, 29, 16);
+    font-size: 1.25em;}
